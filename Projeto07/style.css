@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+}
+
+:root {
+  --fs--heading: 'Palanquin', sans-serif;  
+  --fs--texting: 'Staatliches', sans-serif;
+  --big-primary: #EFF1FF;
+  --fc--primary: #ffffff;
+  --fc--secundary: #CBC0D3;
+
+  font-size: 62.5%;
+  --fs-body: 1.6rem;
+  --fs-heading: 4rem;
+}
+
+body {
+  font-family: var(--fs--texting);
+
+  background-color: var(--big-primary);
+
+  font-size: var(--fs-body)
+
+
+}
+.page {
+  max-width: 32rem;
+  margin: 0 auto;
+
+}
+
+header {
+  font-family: var(--fs--heading);
+  text-align: center;
+  background: #8E9AAF;
+  height: 260px;
+}
+
+header h1 {
+color: var(--fc--primary);
+background-color: var(--fc--secundary);
+letter-spacing: 0.05em;
+  line-height: 3.4rem;
+  margin-top: 3.2rem;
+
+
+}
+
+main {
+  margin-left: 3.2rem;
+  margin-right: 3.2rem;
+}
+
+main p {
+
+  font-size: var(--fs--heading);
+  margin-top: 2.4rem;
+  color: #23053A;
+  margin-bottom: 6.3rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+}
+
+main img {
+  width: 100%;
+  height: auto;
+}
+
+.card {
+  object-fit: cover;
+  margin-bottom: 3.4rem;
+}
+
+h2 {
+  position: absolute;
+  margin-left: 16.8rem;
+  font-weight: 400;
+  color: #4A4E69;
+  margin-top: 1.6rem;
+  font-size: var(--fs--texting);
+  margin-right: 11rem;
+  background: #FEEAFA;
+  border-radius: 20px;
+  width: 40px;
+  padding: 0 15px;
+}
+  
+
